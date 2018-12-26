@@ -14,6 +14,9 @@
 		FAB2D5C221D2BD1200BE3F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2D5C021D2BD1200BE3F3B /* LaunchScreen.storyboard */; };
 		FAB2D5CD21D2BD1200BE3F3B /* coder_swagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D5CC21D2BD1200BE3F3B /* coder_swagTests.swift */; };
 		FAB2D5D821D2BD1200BE3F3B /* coder_swagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D5D721D2BD1200BE3F3B /* coder_swagUITests.swift */; };
+		FAB2D5E821D2D1AD00BE3F3B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D5E721D2D1AD00BE3F3B /* CategoryCell.swift */; };
+		FAB2D5EB21D41D0600BE3F3B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D5EA21D41D0600BE3F3B /* DataService.swift */; };
+		FAB2D5EE21D41EB900BE3F3B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D5ED21D41EB900BE3F3B /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FAB2D5D321D2BD1200BE3F3B /* coder-swagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coder-swagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2D5D721D2BD1200BE3F3B /* coder_swagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coder_swagUITests.swift; sourceTree = "<group>"; };
 		FAB2D5D921D2BD1200BE3F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB2D5E721D2D1AD00BE3F3B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		FAB2D5EA21D41D0600BE3F3B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FAB2D5ED21D41EB900BE3F3B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		FAB2D5B621D2BD1200BE3F3B /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				FAB2D5EC21D41E6C00BE3F3B /* Model */,
+				FAB2D5E921D41CE200BE3F3B /* Services */,
+				FAB2D5E621D2D18700BE3F3B /* View */,
+				FAB2D5E521D2D17A00BE3F3B /* Controller */,
 				FAB2D5B721D2BD1200BE3F3B /* AppDelegate.swift */,
-				FAB2D5B921D2BD1200BE3F3B /* ViewController.swift */,
 				FAB2D5BB21D2BD1200BE3F3B /* Main.storyboard */,
 				FAB2D5BE21D2BD1200BE3F3B /* Assets.xcassets */,
 				FAB2D5C021D2BD1200BE3F3B /* LaunchScreen.storyboard */,
@@ -123,6 +132,38 @@
 				FAB2D5D921D2BD1200BE3F3B /* Info.plist */,
 			);
 			path = "coder-swagUITests";
+			sourceTree = "<group>";
+		};
+		FAB2D5E521D2D17A00BE3F3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2D5B921D2BD1200BE3F3B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAB2D5E621D2D18700BE3F3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2D5E721D2D1AD00BE3F3B /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAB2D5E921D41CE200BE3F3B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2D5EA21D41D0600BE3F3B /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAB2D5EC21D41E6C00BE3F3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2D5ED21D41EB900BE3F3B /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB2D5E821D2D1AD00BE3F3B /* CategoryCell.swift in Sources */,
+				FAB2D5EE21D41EB900BE3F3B /* Category.swift in Sources */,
 				FAB2D5BA21D2BD1200BE3F3B /* ViewController.swift in Sources */,
 				FAB2D5B821D2BD1200BE3F3B /* AppDelegate.swift in Sources */,
+				FAB2D5EB21D41D0600BE3F3B /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
