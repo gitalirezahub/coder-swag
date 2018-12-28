@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ProductsVC.initProducts(category:):ProductsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "products">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataService.getShirts():DataService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shirts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProductsVC.collectionView(_:numberOfItemsInSection:):ProductsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "products">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProductsVC.viewDidLoad():ProductsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "productsCollection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
